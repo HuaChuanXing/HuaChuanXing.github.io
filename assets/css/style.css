@@ -1,0 +1,189 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+	letter-spacing:1px;
+    color:#fff;
+   
+}
+p{
+padding:20px;
+}
+
+section
+{
+padding:50px 20px 25px 20px;
+}
+h2
+{
+
+font-size:60px;
+
+}
+
+p {
+    
+    line-height:30px;
+    margin-bottom:35px;
+}
+hr {
+    border-top: 1px solid rgb(27, 106, 131);
+margin: 0px 100px 0px 100px
+}
+.navbar-inverse {
+background-color: rgb(27, 106, 131);
+border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+background-color: transparent;
+border-bottom: 4px solid rgba(0, 231, 222, 0.72);
+
+
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #FFF;
+font-size: 13px;
+font-weight: 800;
+padding: 10px;
+letter-spacing: 2px;
+margin:10px 5px 10px 5px;
+}
+
+.navbar-inverse .navbar-brand {
+color: #FFF;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+#home {
+    text-align:center;
+    padding-bottom:50px;
+}
+#home i {
+    margin:5px;
+}
+#home h1 {
+text-transform:uppercase;
+    padding-top:120px;
+    font-size:60px;
+    font-weight:900;
+    color:#fff;
+    line-height:80px;
+    padding-bottom:5px;
+}
+#carousel-slider {
+    color:#fff; 
+    min-height:420px;
+    padding:30px 20px 5px 20px; 
+}
+    .carousel-control.left {
+left: 0;
+right: auto;
+background-repeat: repeat-x;
+background-image: linear-gradient(to left,rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 0) 100%)!important;
+}
+.carousel-control.right {
+right: 0;
+left: auto;
+background-repeat: repeat-x;
+background-image: linear-gradient(to right,rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 0) 100%)!important;
+}
+.carousel-indicators li {
+    border:5px solid #FFF;
+    width:20px;
+    height:20px;
+}
+.carousel-indicators .active {
+    border:5px solid rgba(0, 231, 222, 0.72);
+    width:20px;
+    height:20px;
+	background-color:transparent;
+    
+}
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+
+.custom-btn-1 {
+    border-radius:0px;
+    background-color:transparent;
+    border:2px solid rgba(0, 231, 222, 0.72);
+    margin:5px;
+    color:#fff;
+}
+    .custom-btn-1:hover {
+         color:#fff;
+          background-color:rgba(0, 0, 0,  0.42);
+    }
+
+  #contact  .form-control{
+background-color:transparent;
+}
+#contact label {
+    padding:15px;
+}
+.footer {
+    text-align:center;
+    color:#fff;
+    background-color:rgb(27, 106, 131);
+    padding:20px;
+}
+/*
+是取自别的页面
+*/
+#portfolio {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#portfolio .portfolio-list {
+  margin-bottom: 50px;
+}
+
+#portfolio .portfolio-list .nav {
+  display: inline-block;
+  margin: 0;
+}
+
+#portfolio .portfolio-list .nav li {
+  margin: 0 40px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  cursor: pointer;
+  font-family: 'Poppins', helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#portfolio .portfolio-container {
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.portfolio-thumbnail {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.portfolio-thumbnail img {
+  max-width: 100%;
+}
